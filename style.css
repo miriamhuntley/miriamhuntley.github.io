@@ -1,0 +1,138 @@
+
+body {
+    margin-top: 1em;
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    max-width: 50em; 
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    line-height: 140%;
+    color: #525266; 
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration:none;
+    color: #9966ff;
+}
+a:visited { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #ccb3ff;
+    }
+    a:hover, a:focus, a:active { 
+    text-decoration: underline; 
+    color: #661aff;
+    }
+
+p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+pre {
+    background-color: #ececec;
+    color: #1111111;
+    padding: 0.5em;
+}
+code {
+    font-family: monospace;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a { 
+    text-decoration: none;
+    color: #525266; 
+}
+h1, h2, h3, h4, h5 { font-family: Arial;
+                     font-weight: bold;
+                     color: #525266; }
+h1 {
+        font-size: 180%;
+}
+
+h2 {
+        font-size: 110%;
+}
+
+h3 {
+        font-size: 110%;
+}
+
+h4 {
+        font-size: 110%;
+}
+
+h5 {
+        font-size: 90%;
+        font-style: italic;
+}
+
+h1.title {
+        font-size: 200%;
+        font-weight: bold;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        text-align: left;
+        border: none;
+}
+
+img {
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    background: #CCC;
+}
+
+
+.project {
+    padding-bottom: 0em;
+    clear: both;
+}
+
+#projects .level4 {
+    overflow: hidden;
+    padding: 1em;
+}
+
+#projects img {
+        width: 216px;
+	float: left;
+	padding: 1em;
+}
+
+#projects iframe {
+        width: 216px;
+                /*height:300px;*/
+
+    float: left;
+    padding: 1em;
+}
+#projects h4 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+:target {
+   background-color: #e8e8f8;
+}
+
