@@ -25,7 +25,7 @@ a:visited {
     text-decoration: none; 
     color: #ccb3ff;
     }
-    a:hover, a:focus, a:active { 
+a:hover, a:focus, a:active { 
     text-decoration: underline; 
     color: #661aff;
     }
@@ -53,19 +53,16 @@ pre {
 code {
     font-family: monospace;
 }
-h1 a, h2 a, h3 a, h4 a, h5 a { 
-    text-decoration: none;
-    color: #525266; 
-}
+
 h1, h2, h3, h4, h5 { font-family: Arial;
                      font-weight: bold;
                      color: #525266; }
 h1 {
-        font-size: 180%;
+        font-size: 380%;
 }
 
 h2 {
-        font-size: 110%;
+        font-size: 150%;
 }
 
 h3 {
